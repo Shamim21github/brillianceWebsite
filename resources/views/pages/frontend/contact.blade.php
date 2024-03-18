@@ -270,11 +270,11 @@
             <div class="row contact__btm">
               <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                 <div class="contact__info">
-                  <h3 class="sub-title-anim-top animation__word_come">Don't be afraid man ! <br>say hello</h3>
+                  <h3 class="sub-title-anim-top animation__word_come">Let's enjoy everyday &  <br>say hello</h3>
                   <ul>
-                    <li><a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a></li>
-                    <li><a href="mailto:hello@example.com">hello@example.com</a></li>
-                    <li><span>230 Norman Street New York, <br> QC (USA) H8R 1A1</span></li>
+                    <li><a href="tel:02574328301" class="phone">01712-725307, 01612-725307</a></li>
+                    <li><a href="mailto:hello@example.com">info@brilliance.com</a></li>
+                    <li><a href="#">Flat # 1-A, House # 342, Av # 3, Mirpur DOHS, Dhaka-1216</a></li>
                   </ul>
                 </div>
               </div>

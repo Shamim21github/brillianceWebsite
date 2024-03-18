@@ -856,7 +856,7 @@
                   <p class="cta__sub-title">Work with us</p>
                   <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
                   <div class="btn_wrapper">
-                    <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
+                  <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
                         class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
@@ -917,7 +917,7 @@
                   <div class="footer__widget-4">
                     <h2 class="project-title">Have a project in your mind?</h2>
                     <div class="btn_wrapper">
-                      <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                      <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
                           class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>
