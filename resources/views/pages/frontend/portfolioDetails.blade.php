@@ -474,7 +474,7 @@
                                         <h2 class="project-title">Have a project in your mind?</h2>
                                         <div class="btn_wrapper">
                                             <a href="{{ route('contact') }}"
-                                                class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                                                class="wc-btn-primary btn-hover btn-item text-white"><span></span> contact us <i
                                                     class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                         <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>

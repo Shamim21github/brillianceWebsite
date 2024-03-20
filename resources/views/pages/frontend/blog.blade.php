@@ -281,7 +281,7 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <article class="blog__item">
                                     <div class="blog__img-wrapper">
-                                        <a href="blog-details.html">
+                                        <a href="{{ route('blog-details') }}">
                                             <div class="img-box">
                                                 <img class="image-box__item"
                                                     src="{{ asset('frontend/assets/imgs/blog/1.jpg') }}"
@@ -292,11 +292,11 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 15 March 2019</h4>
-                                    <h5><a href="blog-details.html" class="blog__title">Ways of lying to yourself
+                                    <h4 class="blog__meta"><a href="#">UI Design</a> . 15 March 2019</h4>
+                                    <h5><a href="{{ route('blog-details') }}" class="blog__title">Ways of lying to yourself
                                             about your new
                                             relationship.</a></h5>
-                                    <a href="blog-details.html" class="blog__btn">Read More <span><i
+                                    <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                                                 class="fa-solid fa-arrow-right"></i></span></a>
                                 </article>
                             </div>
@@ -304,7 +304,7 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <article class="blog__item">
                                     <div class="blog__img-wrapper">
-                                        <a href="blog-details.html">
+                                        <a href="{{ route('blog-details') }}">
                                             <div class="img-box">
                                                 <img class="image-box__item"
                                                     src="{{ asset('frontend/assets/imgs/blog/2.jpg') }}"
@@ -315,12 +315,12 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                                    <h5><a href="blog-details.html" class="blog__title">How to manage a talented and
+                                    <h4 class="blog__meta"><a href="#">UI Design</a> . 02 May 2019</h4>
+                                    <h5><a href="{{ route('blog-details') }}" class="blog__title">How to manage a talented and
                                             successful de
                                             sign
                                             team</a></h5>
-                                    <a href="blog-details.html" class="blog__btn">Read More <span><i
+                                    <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                                                 class="fa-solid fa-arrow-right"></i></span></a>
                                 </article>
                             </div>
@@ -328,7 +328,7 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <article class="blog__item">
                                     <div class="blog__img-wrapper">
-                                        <a href="blog-details.html">
+                                        <a href="{{ route('blog-details') }}">
                                             <div class="img-box">
                                                 <img class="image-box__item"
                                                     src="{{ asset('frontend/assets/imgs/blog/3.jpg') }}"
@@ -340,11 +340,11 @@
                                         </a>
                                     </div>
                                     <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2022</h4>
-                                    <h5><a href="blog-details.html" class="blog__title">How to bring fold to your
+                                    <h5><a href="{{ route('blog-details') }}" class="blog__title">How to bring fold to your
                                             startup company
                                             with
                                             Axtra</a></h5>
-                                    <a href="blog-details.html" class="blog__btn">Read More <span><i
+                                    <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                                                 class="fa-solid fa-arrow-right"></i></span></a>
                                 </article>
                             </div>
@@ -352,7 +352,7 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <article class="blog__item">
                                     <div class="blog__img-wrapper">
-                                        <a href="blog-details.html">
+                                        <a href="{{ route('blog-details') }}">
                                             <div class="img-box">
                                                 <img class="image-box__item"
                                                     src="{{ asset('frontend/assets/imgs/blog/4.jpg') }}"
@@ -363,11 +363,11 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 22 Dec 2018</h4>
-                                    <h5><a href="blog-details.html" class="blog__title">Ways of lying to yourself
+                                    <h4 class="blog__meta"><a href="#">UI Design</a> . 22 Dec 2018</h4>
+                                    <h5><a href="{{ route('blog-details') }}" class="blog__title">Ways of lying to yourself
                                             about your new
                                             relationship.</a></h5>
-                                    <a href="blog-details.html" class="blog__btn">Read More <span><i
+                                    <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                                                 class="fa-solid fa-arrow-right"></i></span></a>
                                 </article>
                             </div>
@@ -375,7 +375,7 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <article class="blog__item">
                                     <div class="blog__img-wrapper">
-                                        <a href="blog-details.html">
+                                        <a href="{{ route('blog-details') }}">
                                             <div class="img-box">
                                                 <img class="image-box__item"
                                                     src="{{ asset('frontend/assets/imgs/blog/5.jpg') }}"
@@ -386,8 +386,8 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                                    <h5><a href="blog-details.html" class="blog__title">How to manage a talented and
+                                    <h4 class="blog__meta"><a href="#">UI Design</a> . 02 May 2019</h4>
+                                    <h5><a href="{{ route('blog-details') }}" class="blog__title">How to manage a talented and
                                             successful de
                                             sign
                                             team</a></h5>
@@ -436,7 +436,7 @@
                                     <h2 class="cta__title title-anim">We would love to hear more about your project
                                     </h2>
                                     <div class="btn_wrapper">
-                                        <a href="contact.html"
+                                        <a href="{{ route('contact') }}"
                                             class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk us <i
                                                 class="fa-solid fa-arrow-right"></i></a>
                                     </div>

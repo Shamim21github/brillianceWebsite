@@ -336,7 +336,7 @@
                                         <h2 class="cta__title title-anim">We would love to hear more about your project
                                         </h2>
                                         <div class="btn_wrapper">
-                                            <a href="contact.html"
+                                            <a href="{{ route('contact') }}"
                                                 class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk us <i
                                                     class="fa-solid fa-arrow-right"></i></a>
                                         </div>
@@ -390,7 +390,7 @@
                                         <ul class="footer__link">
                                             <li><a href="{{ route('about') }}">About Company</a></li>
                                             <li><a href="{{ route('portfolio') }}">Case Study</a></li>
-                                            <li><a href="{{ route('career') }}">Career</a></li>
+                                            <li><a href="#">Career</a></li>
                                             <li><a href="{{ route('blog') }}">blog</a></li>
                                             <li><a href="{{ route('contact') }}">contact</a></li>
                                         </ul>

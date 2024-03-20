@@ -280,7 +280,7 @@
                     <div class="swiper team__slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/1.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Saymon D. Halk</h4>
@@ -290,7 +290,7 @@
                             </div>
 
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/5.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Jassica Oliver</h4>
@@ -300,7 +300,7 @@
                             </div>
 
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/7.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Daniyel Adamson</h4>
@@ -310,7 +310,7 @@
                             </div>
 
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/4.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Hardiya Kethrine</h4>
@@ -320,7 +320,7 @@
                             </div>
 
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/5.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Saymon D. Halk</h4>
@@ -330,7 +330,7 @@
                             </div>
 
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/6.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Jassica Oliver</h4>
@@ -339,7 +339,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/7.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Jassica Oliver</h4>
@@ -348,7 +348,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/8.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name-6">Jassica Oliver</h4>
@@ -365,7 +365,7 @@
 
                     <div class="team__join-btn">
                         <div class="btn_wrapper">
-                            <a href="contact.html" class="wc-btn-primary btn-item btn-hover"><span></span> Join our
+                            <a href="{{ route('contact') }}" class="wc-btn-primary btn-item btn-hover"><span></span> Join our
                                 <br>talented team
                                 <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
@@ -440,8 +440,8 @@
                                     <h2 class="cta__title title-anim">We would love to hear more about your project
                                     </h2>
                                     <div class="btn_wrapper">
-                                        <a href="contact.html"
-                                            class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk us <i
+                                        <a href="{{ route('contact') }}"
+                                            class="wc-btn-primary btn-item btn-hover text-white"><span></span>Let’s talk us <i
                                                 class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -512,7 +512,7 @@
                                         <h2 class="project-title">Have a project in your mind?</h2>
                                         <div class="btn_wrapper">
                                             <a href="{{ route('contact') }}"
-                                                class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                                                class="wc-btn-primary btn-hover btn-item text-white"><span></span> contact us <i
                                                     class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                         <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>

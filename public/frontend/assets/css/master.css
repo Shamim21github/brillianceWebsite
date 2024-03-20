@@ -1,13 +1,4 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
-
-  Theme Name: Axtra - Digital Agency HTML5 Template
-  Author: Crowdyflow
-  Support: habib.crowdyflow@gmail.com
-  Description: BUILDY – is a  Constructor HTML5 template that comes with high-quality 3 Pre build Home Pages and many built-in awesome inner pages  which are perfect for any creative agencies, designers, digital agencies, freelancers, developers, designers, marketing, startup, blog and portfolio.
-  Version: 1.0
-
------------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
 
@@ -54,7 +45,8 @@
 /*  01. VARIBALES CSS START
 /*----------------------------------------*/
 :root {
-  --primary: #c9f31d;
+  --primary: #fd5901;
+  /* --primary: #c9f31d; */
   --secondary: #2c2c2c;
   --black: #000;
   --black-2: #121212;

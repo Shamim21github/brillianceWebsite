@@ -289,41 +289,41 @@
           <div class="swiper roll__slider">
             <div class="swiper-wrapper roll__wrapper">
               <div class="swiper-slide roll__slide">
-                <h4>Event organize & Event Management  </h4>
+                <h4 style="color: white;">Event organize & Event Management  </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Exhibition Management</h4>
+                <h4 style="color: white;"">Exhibition Management</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Corporate Seminars </h4>
+                <h4 style="color: white;"">Corporate Seminars </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Interior Decoration</h4>
+                <h4 style="color: white;"">Interior Decoration</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Brand & Activation Management</h4>
+                <h4 style="color: white;"">Brand & Activation Management</h4>
                
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Pre-Fabricated Stall</h4>
+                <h4 style="color: white;"">Pre-Fabricated Stall</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Logistics Support </h4>
+                <h4 style="color: white;"">Logistics Support </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>PR Communication</h4>
+                <h4 style="color: white;"">PR Communication</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>TVC & OVC </h4>
+                <h4 style="color: white;">TVC & OVC </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Digital Solutions</h4>
+                <h4 style="color: white;">Digital Solutions</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>ATL & BTL Marketing</h4>
+                <h4 style="color: white;">ATL & BTL Marketing</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4>Branding</h4>
+                <h4 style="color: white;">Branding</h4>
               </div>
             </div>
           </div>
@@ -367,7 +367,7 @@
                       “Our Business is Making Memories” </p>
 
                     <div class="cursor-btn btn_wrapper">
-                      <a class="btn-item wc-btn-primary btn-hover" href="{{ route('about') }}"><span></span> Explore Us <i
+                      <a class="btn-item wc-btn-primary btn-hover text-white" href="{{ route('about') }}"><span></span> Explore Us <i
                           class="fa-solid fa-arrow-right"></i></a>
 
                     </div>
@@ -402,7 +402,7 @@
               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                 <div class="service__top-btn">
                   <div class="btn_wrapper">
-                    <a href="{{ route('services') }}" class="btn-item wc-btn-secondary btn-hover"><span></span> View <br>all
+                    <a href="{{ route('services') }}" class="btn-item wc-btn-secondary btn-hover text-white"><span></span> View <br>all
                       services <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
@@ -652,7 +652,7 @@
             <div class="row row_bottom">
               <div class="col-xxl-12">
                 <div class="portfolio__btn btn_wrapper" data-speed="1" data-lag="0.2">
-                  <a class="wc-btn-secondary btn-hover btn-item" href={{ route('portfolio') }}"><span></span>View <br>all
+                  <a class="wc-btn-secondary btn-hover btn-item text-white" href="{{ route('portfolio') }}"><span></span>View <br>all
                     projects <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
@@ -856,7 +856,7 @@
                   <p class="cta__sub-title">Work with us</p>
                   <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
                   <div class="btn_wrapper">
-                  <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
+                  <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item text-white"><span></span>Let’s talk us <i
                         class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
@@ -906,7 +906,7 @@
                   </div>
 
                   <div class="footer__widget-3">
-                    <h2 class="footer__widget-title">Contact Us</h2>
+                    <h2 class="footer__widget-title text-white">Contact Us</h2>
                     <ul class="footer__contact">
                       <li>Flat # 1-A, House # 342, Av # 3, Mirpur DOHS, Dhaka-1216</li>
                       <li><a href="tel:02574328301" class="phone">01712-725307, 01612-725307</a></li>
@@ -917,7 +917,7 @@
                   <div class="footer__widget-4">
                     <h2 class="project-title">Have a project in your mind?</h2>
                     <div class="btn_wrapper">
-                      <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                      <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item text-white"><span></span> contact us <i
                           class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>

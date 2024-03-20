@@ -271,7 +271,7 @@
                                         <div class="hero__about-btn">
                                             <div class="btn_wrapper">
                                                 <a href="{{ route('services') }}"
-                                                    class="wc-btn-primary btn-hover btn-item"><span></span> Trends &
+                                                    class="wc-btn-primary btn-hover btn-item text-white"><span></span> Trends &
                                                     <br>
                                                     technology
                                                     <i class="fa-solid fa-arrow-right"></i></a>
@@ -392,22 +392,22 @@
                             <div class="col-xxl-12">
                                 <div class="counter__wrapper-2 counter_animation">
                                     <div class="counter__item-2 counter__anim">
-                                        <h2 class="counter__number">25k</h2>
+                                        <h2 class="counter__number">2.5k</h2>
                                         <p>Project <br>completed</p>
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item-2 counter__anim">
-                                        <h2 class="counter__number">8k</h2>
+                                        <h2 class="counter__number">2k</h2>
                                         <p>Happy <br>customers</p>
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item-2 counter__anim">
-                                        <h2 class="counter__number">15</h2>
+                                        <h2 class="counter__number">10</h2>
                                         <p>Years <br>experiences</p>
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item-2 counter__anim">
-                                        <h2 class="counter__number">98</h2>
+                                        <h2 class="counter__number">08</h2>
                                         <p>Awards <br>achievement</p>
                                         <span class="counter__border"></span>
                                     </div>
@@ -430,7 +430,7 @@
                     <div class="swiper team__slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide team__slide">
-                                <a href="team-details.html">
+                                <a href="{{ route('team-details') }}">
                                     <img src="{{ asset('frontend/assets/imgs/team/1.jpg') }}" alt="Team Member">
                                     <div class="team__info">
                                         <h4 class="team__member-name">Saymon D. Halk</h4>
@@ -649,8 +649,8 @@
                                     <h2 class="cta__title title-anim">We would love to hear more about your project
                                     </h2>
                                     <div class="btn_wrapper">
-                                        <a href="contact.html"
-                                            class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
+                                        <a href="{{ route('contact') }}"
+                                            class="wc-btn-primary btn-hover btn-item text-white"><span></span>Let’s talk us <i
                                                 class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -722,7 +722,7 @@
                                         <h2 class="project-title">Have a project in your mind?</h2>
                                         <div class="btn_wrapper">
                                             <a href="{{ route('contact') }}"
-                                                class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                                                class="wc-btn-primary btn-hover btn-item text-white"><span></span> contact us <i
                                                     class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                         <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>
