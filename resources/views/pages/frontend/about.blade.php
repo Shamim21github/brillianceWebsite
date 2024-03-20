@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/progressbar.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/meanmenu.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/master.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/assets/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
 </head>
 
 
@@ -40,17 +40,17 @@
 
     <!-- Preloader -->
     {{-- <div class="preloader">
-        <div class="loading">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-            <div class="bar bar3"></div>
-            <div class="bar bar4"></div>
-            <div class="bar bar5"></div>
-            <div class="bar bar6"></div>
-            <div class="bar bar7"></div>
-            <div class="bar bar8"></div>
-        </div>
-    </div> --}}
+    <div class="loading">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div> --}}
 
 
     <!-- Switcher Area Start -->
@@ -114,7 +114,7 @@
     <header class="header__area">
         <div class="header__inner">
             <div class="header__logo">
-                <a href="index.html">
+                <a href="/">
                     <img class="logo-primary" src="{{ asset('frontend/assets/imgs/logo/brillance_logo1.png') }}"
                         alt="Site Logo">
                     <img class="logo-secondary" src="{{ asset('frontend/assets/imgs/logo/brillance_logo.png') }}"
@@ -138,7 +138,7 @@
         <div class="offcanvas__body">
             <div class="offcanvas__left">
                 <div class="offcanvas__logo">
-                    <a href="index.html"><img src="{{ asset('frontend/assets/imgs/logo/brillance_logo2.png') }}"
+                    <a href="/"><img src="{{ asset('frontend/assets/imgs/logo/brillance_logo2.png') }}"
                             alt="Brilliance Logo"></a>
                 </div>
                 <div class="offcanvas__social">
@@ -153,10 +153,10 @@
                 </div>
                 <div class="offcanvas__links">
                     <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                        <li><a href="career.html">Career</a></li>
-                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="{{ route('about') }}">About</a></li>
+                        <li><a href="{{ route('contact') }}">contact</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="{{ route('blog') }}">blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -166,9 +166,7 @@
                         <ul class="menu-anim">
                             <li><a>home</a>
                                 <ul>
-                                    <li><a
-                                            href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/brilliance_v2.html">Creative
-                                            Agency</a></li>
+                                    <li><a href="/">Creative Agency</a></li>
 
                                 </ul>
 
@@ -177,45 +175,41 @@
                                 <a>About Us</a>
                                 <ul>
 
-                                    <li><a
-                                            href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/about-dark.html">Know
-                                            Ourself</a></li>
-                                    <!-- <li><a href="index-woocommerce.html">Know Ourself</a></li> -->
-                                </ul>
+                                    <<li><a href="{{ route('about') }}">Know Ourself</a>
                             </li>
-                            <li>
-                                <a>Service</a>
-                                <ul>
-                                    <li><a
-                                            href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/service-2-dark.html">Our
-                                            Services</a></li>
-                                </ul>
-                            </li>
-                            <li><a>pages</a>
-                                <ul>
+                            {{-- <li><a href="http://localhost:8000/about">Know Ourself</a></li> --}}
+                            {{-- <li><a href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/about-dark.html">Know Ourself</a></li> --}}
+                            <!-- <li><a href="index-woocommerce.html">Know Ourself</a></li> -->
+                        </ul>
+                        </li>
+                        <li>
+                            <a>Service</a>
+                            <ul>
+                                <li><a href="{{ route('services') }}">Our Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a>pages</a>
+                            <ul>
 
-                                    <!-- <li>
+                                <!-- <li>
                     <a>Service</a>
                     <ul>
                       <li><a href="service.html">Our Services</a></li>
                     </ul> -->
-                            </li>
-                            <li>
-                                <a>portfolio</a>
-                                <ul>
-                                    <li><a
-                                            href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/portfolio-dark.html">Portfolio</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a>team</a>
-                                <ul>
-                                    <li><a href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/team-dark.html">Our
-                                            Team Members</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li>
+                        </li>
+                        <li>
+                            <a>portfolio</a>
+                            <ul>
+                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>team</a>
+                            <ul>
+                                <li><a href="{{ route('team') }}">Our Team Members</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li>
                     <a>blog</a>
                     <ul>
                       <li><a href="blog.html">Our blog</a></li>
@@ -226,14 +220,10 @@
                         </li>
                         <li><a>blog</a>
                             <ul>
-                                <li><a
-                                        href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/blog-dark.html">blog</a>
-                                </li>
+                                <li><a href="{{ route('blog') }}">blog</a></li>
                             </ul>
                         </li>
-                        <li><a
-                                href="file:///C:/xampp/htdocs/6.Templates/BrillianceWebsite/contact-dark.html">contact</a>
-                        </li>
+                        <li><a href="{{ route('contact') }}">contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -276,7 +266,7 @@
                             <div class="col-xxl-12">
                                 <div class="hero__about-content">
                                     <h1 class="hero-title animation__word_come">Brilliance event management was
-                                        established in 2015. </h1>                                  
+                                        established in 2015. </h1>
                                     <div class="hero__about-info">
                                         <div class="hero__about-btn">
                                             <div class="btn_wrapper">
@@ -332,7 +322,7 @@
                                     <h3 class="sec-title title-anim">Our Vision</h3>
                                 </div>
                                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                                        <br>
+                                    <br>
                                     <div class="story__text">
                                         <p>Brilliance will be nationally recognized as the most innovative, dedicated,
                                             and productive event agency in Bangladesh. We will provide our clients with
@@ -341,7 +331,7 @@
                                             corporations eager to manage their communication with their key
                                             stakeholders.
                                         </p>
-                                          <br> <br>
+                                        <br> <br>
 
                                     </div>
                                 </div>
@@ -354,12 +344,12 @@
                                         <div class="story__text">
 
                                             <div class="story__text">
-                                                  <br>
+                                                <br>
                                                 <p>To provide innovative and effective integrated exponential marketing
                                                     and public relations solutions that help our clients to grow their
                                                     businesses and realize their marketing goals.
                                                 </p>
-                                                   <br>
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -679,7 +669,7 @@
                 <div class="footer__top">
                     <div class="container footer-line"></div>
                     <img src="{{ asset('frontend/assets/imgs/thumb/footer.jpg') }}" alt="Footer Image"
-                        data-speed="0.5">
+                        data-speed="0.75">
                 </div>
 
                 <div class="footer__btm">
@@ -710,11 +700,11 @@
                                     <div class="footer__widget-2">
                                         <h2 class="footer__widget-title">Information</h2>
                                         <ul class="footer__link">
-                                            <li><a href="about.html">About Company</a></li>
-                                            <li><a href="portfolio.html">Case Study</a></li>
-                                            <li><a href="career.html">Career</a></li>
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="contact.html">contact</a></li>
+                                            <li><a href="{{ route('about') }}">About Company</a></li>
+                                            <li><a href="{{ route('portfolio') }}">Case Study</a></li>
+                                            <li><a href="#">Career</a></li>
+                                            <li><a href="{{ route('blog') }}">blog</a></li>
+                                            <li><a href="{{ route('contact') }}">contact</a></li>
                                         </ul>
                                     </div>
 
@@ -731,14 +721,13 @@
                                     <div class="footer__widget-4">
                                         <h2 class="project-title">Have a project in your mind?</h2>
                                         <div class="btn_wrapper">
-                                            <a href="contact.html"
+                                            <a href="{{ route('contact') }}"
                                                 class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
                                                     class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                         <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>
                                         <h4 class="contact-day">Saturday - Thursday</h4>
                                     </div>
-
 
                                     <div class="footer__copyright">
                                         <p>© 2024 - 2025 | Alrights reserved by <a href="http://shamim.intels.co/"

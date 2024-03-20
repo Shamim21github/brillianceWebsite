@@ -63,9 +63,9 @@ Route::get('/contact', function () {
     return view('pages.frontend.contact');
 })->name('contact');
 
-Route::post('/contacts', function () {
-    return view('pages.frontend.contact');
-})->name('contacts');
+// Route::post('/contacts', function () {
+//     return view('pages.frontend.contact');
+// })->name('contacts');
 
 
 

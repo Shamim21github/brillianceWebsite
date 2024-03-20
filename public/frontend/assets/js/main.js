@@ -3932,45 +3932,45 @@
 
 
   /////////////////////////////////////////////////
-  var range_slider = $("#slider-range");
+  // var range_slider = $("#slider-range");
 
-  if (range_slider) {
-    $("#slider-range").slider({
-      range: true,
-      min: 0,
-      max: 6000,
-      values: [0, 6000],
-      slide: function (event, ui) {
-        $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-      }
-    });
-    $("#amount").val(
-      "$" +
-      $("#slider-range").slider("values", 0) +
-      " - $" +
-      $("#slider-range").slider("values", 1)
-    );
-  }
+  // if (range_slider) {
+  //   $("#slider-range").slider({
+  //     range: true,
+  //     min: 0,
+  //     max: 6000,
+  //     values: [0, 6000],
+  //     slide: function (event, ui) {
+  //       $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+  //     }
+  //   });
+  //   $("#amount").val(
+  //     "$" +
+  //     $("#slider-range").slider("values", 0) +
+  //     " - $" +
+  //     $("#slider-range").slider("values", 1)
+  //   );
+  // }
   /////////////////////////////////////////////////
 
 
   /////////////////////////////////////////////////
   //
-  $("#slider_range_2").slider({
-    range: true,
-    min: 0,
-    max: 6000,
-    values: [0, 6000],
-    slide: function (event, ui) {
-      $("#amount_2").val("$" + ui.values[0] + " - $" + ui.values[1]);
-    }
-  });
-  $("#amount_2").val(
-    "$" +
-    $("#slider_range_2").slider("values", 0) +
-    " - $" +
-    $("#slider_range_2").slider("values", 1)
-  );
+  // $("#slider_range_2").slider({
+  //   range: true,
+  //   min: 0,
+  //   max: 6000,
+  //   values: [0, 6000],
+  //   slide: function (event, ui) {
+  //     $("#amount_2").val("$" + ui.values[0] + " - $" + ui.values[1]);
+  //   }
+  // });
+  // $("#amount_2").val(
+  //   "$" +
+  //   $("#slider_range_2").slider("values", 0) +
+  //   " - $" +
+  //   $("#slider_range_2").slider("values", 1)
+  // );
   /////////////////////////////////////////////////
 
 

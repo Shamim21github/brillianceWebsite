@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="{{ asset ('frontend/assets/css/progressbar.css') }}">
   <link rel="stylesheet" href="{{ asset ('frontend/assets/css/meanmenu.min.css') }}">
   <link rel="stylesheet" href="{{ asset ('frontend/assets/css/master.css') }}">
-  <link rel="stylesheet" href="{{ asset ('frontend/assets/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
 </head>
 
 
@@ -38,7 +38,7 @@
 
 
   <!-- Preloader -->
-  <div class="preloader">
+  {{-- <div class="preloader">
     <div class="loading">
       <div class="bar bar1"></div>
       <div class="bar bar2"></div>
@@ -49,7 +49,7 @@
       <div class="bar bar7"></div>
       <div class="bar bar8"></div>
     </div>
-  </div>
+  </div> --}}
 
 
   <!-- Switcher Area Start -->
@@ -113,7 +113,7 @@
   <header class="header__area">
     <div class="header__inner">
       <div class="header__logo">
-        <a href="index.html">
+        <a href="/">
           <img class="logo-primary" src="{{ asset ('frontend/assets/imgs/logo/brillance_logo1.png') }}" alt="Site Logo">
           <img class="logo-secondary" src="{{ asset ('frontend/assets/imgs/logo/brillance_logo.png') }}" alt="Moibile Logo">
         </a>
@@ -134,7 +134,7 @@
     <div class="offcanvas__body">
       <div class="offcanvas__left">
         <div class="offcanvas__logo">
-          <a href="index.html"><img src="{{ asset ('frontend/assets/imgs/logo/brillance_logo2.png') }}" alt="Brilliance Logo"></a>
+          <a href="/"><img src="{{ asset ('frontend/assets/imgs/logo/brillance_logo2.png') }}" alt="Brilliance Logo"></a>
         </div>
         <div class="offcanvas__social">
           <h3 class="social-title">Follow Us</h3>
@@ -144,14 +144,14 @@
             <li><a href="#">Instagram</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">YouTube</a></li>
-          </ul>
+        </ul>
         </div>
         <div class="offcanvas__links">
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">contact</a></li>
-            <li><a href="career.html">Career</a></li>
-            <li><a href="blog.html">blog</a></li>
+            <li><a href="{{ route('about') }}">About</a></li>
+            <li><a href="{{ route('contact') }}">contact</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="{{ route('blog') }}">blog</a></li>
           </ul>
         </div>
       </div>
@@ -258,7 +258,7 @@
             <div class="row">
               <div class="col-xxl-12">
                 <div class="hero__content animation__hero_one">
-                  <a href="service.html">Strategy, Design, Solution Development <span><i
+                  <a href="{{ route('services') }}">Strategy, Design, Solution Development <span><i
                         class="fa-solid fa-arrow-right"></i></span>
                     </a>
                   <div class="hero__title-wrapper">
@@ -271,7 +271,7 @@
                   </div>
                   <img src="{{ asset ('frontend/assets/imgs/icon/arrow-down-big.png') }}" alt="Arrow Down Icon">
                   <div class="experience">
-                    <h2 class="title">25k+</h2>
+                    <h2 class="title">2.5k+</h2>
                     <p>Projects completed <br>successfully</p>
                   </div>
                 </div>
@@ -603,7 +603,7 @@
               <h2 class="portfolio__text">work</h2>
               <div class="portfolio__list-1">
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
+                  <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
                       alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
@@ -611,35 +611,35 @@
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/3.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/3.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/4.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/4.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                     <p>02 May 2021</p>
@@ -652,7 +652,7 @@
             <div class="row row_bottom">
               <div class="col-xxl-12">
                 <div class="portfolio__btn btn_wrapper" data-speed="1" data-lag="0.2">
-                  <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span>View <br>all
+                  <a class="wc-btn-secondary btn-hover btn-item" href={{ route('portfolio') }}"><span></span>View <br>all
                     projects <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
@@ -790,7 +790,7 @@
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                   <div class="blog__img-wrapper">
-                    <a href="blog-details.html">
+                    <a href="{{ route('blog-details') }}">
                       <div class="img-box">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/3.jpg') }}" alt="">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/3.jpg') }}" alt="">
@@ -798,9 +798,9 @@
                     </a>
                   </div>
                   <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="blog-details.html" class="blog__title">Ways of lying to yourself about your new
+                  <h5><a href="{{ route('blog-details') }}" class="blog__title">Ways of lying to yourself about your new
                       relationship.</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i
+                  <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
@@ -808,17 +808,17 @@
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                   <div class="blog__img-wrapper">
-                    <a href="blog-details.html">
+                    <a href="{{ route('blog-details') }}">
                       <div class="img-box">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/2.jpg') }}" alt="">
-                        <img class="image-box__item" src={{ asset ('frontend/assets/imgs/blog/1/2.jpg') }}" alt="">
+                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/2.jpg') }}" alt="">
                       </div>
                     </a>
                   </div>
-                  <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="blog-details.html" class="blog__title">How to manage a talented and successful de sign
+                  <h4 class="blog__meta"><a href="/">UI Design</a> . 02 May 2019</h4>
+                  <h5><a href="{{ route('blog-details') }}" class="blog__title">How to manage a talented and successful de sign
                       team</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i
+                  <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
@@ -826,17 +826,17 @@
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                   <div class="blog__img-wrapper">
-                    <a href="blog-details.html">
+                    <a href="{{ route('blog-details') }}">
                       <div class="img-box">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/3.jpg') }}" alt="Blog Thumbnail">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/3.jpg') }}" alt="BLog Thumbnail">
                       </div>
                     </a>
                   </div>
-                  <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="blog-details.html" class="blog__title">How to bring fold to your startup company with
+                  <h4 class="blog__meta"><a href="/">UI Design</a> . 02 May 2019</h4>
+                  <h5><a href="{{ route('blog-details') }}" class="blog__title">How to bring fold to your startup company with
                       Axtra</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i
+                  <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
@@ -897,11 +897,11 @@
                   <div class="footer__widget-2">
                     <h2 class="footer__widget-title">Information</h2>
                     <ul class="footer__link">
-                      <li><a href="about.html">About Company</a></li>
-                      <li><a href="portfolio.html">Case Study</a></li>
-                      <li><a href="career.html">Career</a></li>
-                      <li><a href="blog.html">blog</a></li>
-                      <li><a href="contact.html">contact</a></li>
+                      <li><a href="{{ route('about') }}">About Company</a></li>
+                      <li><a href="{{ route('portfolio') }}">Case Study</a></li>
+                      <li><a href="#">Career</a></li>
+                      <li><a href="{{ route('blog') }}">blog</a></li>
+                      <li><a href="{{ route('contact') }}">contact</a></li>
                     </ul>
                   </div>
 
@@ -991,6 +991,8 @@
   <script src="{{ asset ('frontend/assets/js/vanilla-tilt.js') }}"></script>
   <script src="{{ asset('frontend/assets/js/jquery.meanmenu.min.js') }}"></script>
   <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
+  {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script> --}}
 
 
 </body>
