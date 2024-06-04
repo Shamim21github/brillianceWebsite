@@ -156,7 +156,7 @@
                         <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
                         <li><a href="#">Career</a></li>
-                        <li><a href="{{ route('blog') }}">blog</a></li>
+                        <li><a href="{{ route('gallery') }}">gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -210,17 +210,17 @@
                             </ul>
                         </li>
                         <!-- <li>
-                    <a>blog</a>
+                    <a>gallery</a>
                     <ul>
-                      <li><a href="blog.html">Our blog</a></li>
+                      <li><a href="gallery.html">Our gallery</a></li>
                     </ul>
                   </li> -->
 
                         </ul>
                         </li>
-                        <li><a>blog</a>
+                        <li><a>gallery</a>
                             <ul>
-                                <li><a href="{{ route('blog') }}">blog</a></li>
+                                <li><a href="{{ route('gallery') }}">gallery</a></li>
                             </ul>
                         </li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
@@ -280,95 +280,177 @@
 
                         <div class="service__list-wrapper">
                             <div class="row">
-                                <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0">
-                                    <div class="service__img-wrapper">
-                                        <img src="{{ asset('frontend/assets/imgs/service/eventManagement.jpg') }}"
-                                            alt="Service Image" class="service__img img-1 active">
-                                        <img src="{{ asset('frontend/assets/imgs/service/Exhibition.jpg') }}"
-                                            alt="Service Image" class="service__img img-2">
-                                        <img src="{{ asset('frontend/assets/imgs/service/seminar.jpg') }}"
-                                            alt="Service Image" class="service__img img-3">
-                                        <img src="{{ asset('frontend/assets/imgs/service/branding.jpg') }}"
-                                            alt="Service Image" class="service__img img-4">
-
-                                        <span class="shape-box-1 current"></span>
-                                        <span class="shape-box-2"></span>
-                                        <span class="shape-box-3"></span>
-                                        <span class="shape-box-4"></span>
-                                    </div>
+                              <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0">
+                                <div class="service__img-wrapper">
+                                  <img src="{{ asset ('frontend/assets/imgs/service/eventManagement.jpg') }}" alt="Service Image" class="service__img img-1 active">
+                                  <img src="{{asset ('frontend/assets/imgs/service/Exhibition.jpg') }}" alt="Service Image" class="service__img img-2">
+                                  <img src="{{ asset ('frontend/assets/imgs/service/seminar.jpg') }}" alt="Service Image" class="service__img img-3">
+                                  <img src="{{asset ('frontend/assets/imgs/service/branding.jpg') }}" alt="Service Image" class="service__img img-4">
+              
+                                  <span class="shape-box-1 current"></span>
+                                  <span class="shape-box-2"></span>
+                                  <span class="shape-box-3"></span>
+                                  <span class="shape-box-4"></span>
                                 </div>
-                                <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
-                                    <div class="service__list">
-                                        <a href="{{ route('service-details') }}">
-                                            <div class="service__item animation_home1_service" data-service="1">
-                                                <div class="service__number"><span>01</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title">Event organize & Event Management</h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p>We are coordinating and managing crucial aspects of a particular
-                                                        event, including the team working on the event</p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
-                                            </div>
-                                        </a>
-
-                                        <a href="{{ route('service-details') }}">
-                                            <div class="service__item  animation_home1_service" data-service="2">
-                                                <div class="service__number"><span>02</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title">Exhibition Management</h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p>Exhibition management is one of the most challenging and complex
-                                                        occupations for conference organisers, given the many services
-                                                        and tasks that fall under this profession. We provided this
-                                                        services with outstanding performance</p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
-                                            </div>
-                                        </a>
-
-                                        <a href="{{ route('service-details') }}">
-                                            <div class="service__item  animation_home1_service" data-service="3">
-                                                <div class="service__number"><span>03</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title">Corporate<br>Seminars </h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p>Our Corporate Training Seminars leverage employee engagement to
-                                                        attain higher productivity and greater results</p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
-                                            </div>
-                                        </a>
-
-                                        <a href="{{ route('service-details') }}">
-                                            <div class="service__item  animation_home1_service" data-service="4">
-                                                <div class="service__number"><span>04</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title">Brand & Activation Management</h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p>We are experiential event management agency focused on Brand
-                                                        Activation Strategy and Implementation, Event Design and
-                                                        Management, Field Services as well as Promotions</p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
-                                            </div>
-                                        </a>
+                              </div>
+                              <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
+                                <div class="service__list">
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item animation_home1_service" data-service="1">
+                                      <div class="service__number"><span>01</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Campaign Development</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We meticulously plan and execute tailored campaigns designed to reinforce our clients' presence in the minds of their customers and drive sales growth. By attentively listening to our clients' needs, delving into the heart of each situation, and discerning the unique requirements of their brand, we develop customized solutions that not only address immediate needs but also foster long-term brand growth.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
                                     </div>
+                                  </a>
+              
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="2">
+                                      <div class="service__number"><span>02</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Experiential Marketingt</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>With a knack for organizing impactful events and activations that elevate brand awareness and engage consumers, we meticulously plan, design, and execute marketing events & activations tailored to meet the unique requirements of each brand.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+              
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="3">
+                                      <div class="service__number"><span>03</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Communication Strategy Development </h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We specialize in crafting brand identities, defining communication objectives, and mapping out strategic communication roadmaps, all of which contribute to fostering comprehensive brand development.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+              
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>04</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Creative Development</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>Our team prioritizes the creation of communicative and engaging creative solutions that capture the audience's attention and effectively convey the intended message. We do, Newspaper Ad Design, TV Ad Design, Events & Activation Materials Design, Digital Media Ad Designs, etc.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>05</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">ATL Marketing</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We foster brand development through various communication channels such as newspaper ads, TV ads, magazine ads, radio ads, and more.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>06</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">BTL Marketing</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We facilitate brand growth through strategic communication across a spectrum of platforms, encompassing poster ads, banner ads, traditional & digital billboard ads, direct marketing initiatives, events & activations, etc.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>07</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Digital Marketing</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We prioritize our clients' digital presence, connecting them with their prospects through timely and targeted communication across social media and other digital channels. Our commitment to managing their digital presence ensures their continued growth in the digital landscape.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>08</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Event Management</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We specialize in designing, organizing, and executing corporate events that elevate the prestige of our clients and fulfill their objectives. With a passionate approach, we orchestrate corporate, marketing, and business events with meticulous attention to detail.</p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>09</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Interior Design</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We are dedicated to bringing the dreams of our esteemed clients to life. By listening to their aspirations, we pledge to design interiors that reflect their desires, ensuring an unforgettable experience through our unparalleled service.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="{{ route('service-details') }}">
+                                    <div class="service__item  animation_home1_service" data-service="4">
+                                      <div class="service__number"><span>10</span></div>
+                                      <div class="service__title-wrapper">
+                                        <h4 class="service__title">Logistics Support</h4>
+                                      </div>
+                                      <div class="service__text">
+                                        <p>We offer comprehensive logistics support for event organization and interior design projects, committed to standing by our clients at every step. From the storage of event materials to providing essential resources for event execution and interior design projects, we ensure seamless service delivery.
+                                        </p>
+                                      </div>
+                                      <div class="service__link">
+                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                      </div>
+                                    </div>
+                                  </a>
                                 </div>
+                              </div>
                             </div>
-                        </div>
+                          </div>
                     </div>
                 </section>
                 <!-- Service area end -->
@@ -474,7 +556,7 @@
                                             <li><a href="{{ route('about') }}">About Company</a></li>
                                             <li><a href="{{ route('portfolio') }}">Case Study</a></li>
                                             <li><a href="#">Career</a></li>
-                                            <li><a href="{{ route('blog') }}">blog</a></li>
+                                            <li><a href="{{ route('gallery') }}">gallery</a></li>
                                             <li><a href="{{ route('contact') }}">contact</a></li>
                                         </ul>
                                     </div>

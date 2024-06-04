@@ -51,13 +51,13 @@ Route::get('/team-details', function () {
     return view('pages.frontend.teamDetails');
 })->name('team-details');
 
-Route::get('/blog', function () {
-    return view('pages.frontend.blog');
-})->name('blog');
+Route::get('/gallery', function () {
+    return view('pages.frontend.gallery');
+})->name('gallery');
 
-Route::get('/blog-details', function () {
-    return view('pages.frontend.blogDetails');
-})->name('blog-details');
+Route::get('/gallery-details', function () {
+    return view('pages.frontend.galleryDetails');
+})->name('gallery-details');
 
 Route::get('/contact', function () {
     return view('pages.frontend.contact');

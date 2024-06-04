@@ -156,7 +156,7 @@
                         <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
                         <li><a href="#">Career</a></li>
-                        <li><a href="{{ route('blog') }}">blog</a></li>
+                        <li><a href="{{ route('gallery') }}">gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -210,17 +210,17 @@
                             </ul>
                         </li>
                         <!-- <li>
-                    <a>blog</a>
+                    <a>gallery</a>
                     <ul>
-                      <li><a href="blog.html">Our blog</a></li>
+                      <li><a href="gallery.html">Our gallery</a></li>
                     </ul>
                   </li> -->
 
                         </ul>
                         </li>
-                        <li><a>blog</a>
+                        <li><a>gallery</a>
                             <ul>
-                                <li><a href="{{ route('blog') }}">blog</a></li>
+                                <li><a href="{{ route('gallery') }}">gallery</a></li>
                             </ul>
                         </li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
@@ -455,7 +455,7 @@
                                             <li><a href="{{ route('about') }}">About Company</a></li>
                                             <li><a href="{{ route('portfolio') }}">Case Study</a></li>
                                             <li><a href="#">Career</a></li>
-                                            <li><a href="{{ route('blog') }}">blog</a></li>
+                                            <li><a href="{{ route('gallery') }}">gallery</a></li>
                                             <li><a href="{{ route('contact') }}">contact</a></li>
                                         </ul>
                                     </div>

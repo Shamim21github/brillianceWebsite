@@ -10,7 +10,8 @@
         <button id="open_offcanvas"><img src="{{ asset ('frontend/assets/imgs/icon/menu-white.png') }}" alt="Menubar Icon"></button>
       </div>
       <div class="header__support">
-        <p>Support center <a href="tel:+9587325902">+88-01712 725307</a></p>
+        {{-- <p>Support center <a href="tel:+9587325902">+88-01712 725307</a></p> --}}
+        <img class="logo-primary" src="{{ asset ('frontend/assets/imgs/logo/brillance_logo1.png') }}" alt="Site Logo">
       </div>
     </div>
   </header>

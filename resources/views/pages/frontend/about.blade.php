@@ -156,7 +156,7 @@
                         <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
                         <li><a href="#">Career</a></li>
-                        <li><a href="{{ route('blog') }}">blog</a></li>
+                        <li><a href="{{ route('gallery') }}">gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -210,17 +210,17 @@
                             </ul>
                         </li>
                         <!-- <li>
-                    <a>blog</a>
+                    <a>gallery</a>
                     <ul>
-                      <li><a href="blog.html">Our blog</a></li>
+                      <li><a href="gallery.html">Our gallery</a></li>
                     </ul>
                   </li> -->
 
                         </ul>
                         </li>
-                        <li><a>blog</a>
+                        <li><a>gallery</a>
                             <ul>
-                                <li><a href="{{ route('blog') }}">blog</a></li>
+                                <li><a href="{{ route('gallery') }}">gallery</a></li>
                             </ul>
                         </li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
@@ -278,14 +278,11 @@
                                             </div>
                                         </div>
                                         <div class="hero__about-text title-anim">
-                                            <p>Since its inception Brilliance has been providing excellent service with
-                                                topnotch clients’ satisfaction.
+                                    
+                                                <p>
+                                                    "Since its establishment, Brilliance has consistently delivered exceptional service, ensuring utmost client satisfaction. We specialize in providing innovative, effective, and integrated communication services to empower our clients, helping them achieve their business growth and market objectives."
 
-                                                Brilliance serves innovative, effective, and integrated event management
-                                                services to our clients and aims to help grow their business and grab
-                                                their expected market goals. Our motto is-
-
-                                                “Our Business is Making Memories” </p>
+                                                </p>
                                         </div>
                                         <div class="hero__about-award">
                                             <img src="{{ asset('frontend/assets/imgs/about/award.png') }}"
@@ -703,7 +700,7 @@
                                             <li><a href="{{ route('about') }}">About Company</a></li>
                                             <li><a href="{{ route('portfolio') }}">Case Study</a></li>
                                             <li><a href="#">Career</a></li>
-                                            <li><a href="{{ route('blog') }}">blog</a></li>
+                                            <li><a href="{{ route('gallery') }}">gallery</a></li>
                                             <li><a href="{{ route('contact') }}">contact</a></li>
                                         </ul>
                                     </div>

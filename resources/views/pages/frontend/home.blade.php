@@ -122,7 +122,8 @@
         <button id="open_offcanvas"><img src="{{ asset ('frontend/assets/imgs/icon/menu-white.png') }}" alt="Menubar Icon"></button>
       </div>
       <div class="header__support">
-        <p>Support center <a href="tel:+9587325902">+88-01712 725307</a></p>
+        {{-- <p>Support center <a href="tel:+9587325902">+88-01712 725307</a></p> --}}
+        <img class="logo-primary" src="{{ asset ('frontend/assets/imgs/logo/brillance_logo1.png') }}" alt="Site Logo">
       </div>
     </div>
   </header>
@@ -151,7 +152,7 @@
             <li><a href="{{ route('about') }}">About</a></li>
             <li><a href="{{ route('contact') }}">contact</a></li>
             <li><a href="#">Career</a></li>
-            <li><a href="{{ route('blog') }}">blog</a></li>
+            <li><a href="{{ route('gallery') }}">blog</a></li>
           </ul>
         </div>
       </div>
@@ -214,7 +215,7 @@
               </li>
               <li><a>blog</a>
                 <ul>
-                  <li><a href="{{ route('blog') }}">blog</a></li>
+                  <li><a href="{{ route('gallery') }}">Gallery</a></li>
                 </ul>
               </li>
               <li><a href="{{ route('contact') }}">contact</a></li>
@@ -258,15 +259,14 @@
             <div class="row">
               <div class="col-xxl-12">
                 <div class="hero__content animation__hero_one">
-                  <a href="{{ route('services') }}">Strategy, Design, Solution Development <span><i
+                  {{-- <a href="{{ route('services') }}">Strategy, Design, Solution Development <span><i
                         class="fa-solid fa-arrow-right"></i></span>
-                    </a>
+                    </a> --}}
+                    {{-- <img class="logo-primary" src="{{ asset ('frontend/assets/imgs/logo/brillance_logo1.png') }}" alt="Site Logo"> --}}
                   <div class="hero__title-wrapper">
-                    <h1 class="hero__title" >Management Agancy</h1>
-                    <p class="hero__sub-title">With every single one of our clients, we
-                      bring forth deep passion for
-                      <span>creative problem solving</span>
-                      which is what we deliver.
+                    <h2 class="hero__title"  style="font-size: 70px !important">BRILLIANCE <br>  ACTIVATION <br>  LTD. 
+                    </h2> <br> <br> <br> <br> <br> <br> <br>  
+                    <p class="hero__sub-title" style=" justify-content: space-between!important;">We develop customized strategies to enhance your brand, providing effective and holistic marketing solutions </span>  that connect with your audience and deliver measurable results. Discover the effectiveness of integrated marketing with our expertise.
                     </p>
                   </div>
                   <img src="{{ asset ('frontend/assets/imgs/icon/arrow-down-big.png') }}" alt="Arrow Down Icon">
@@ -279,7 +279,10 @@
             </div>
           </div>
 
-          <img src="{{ asset ('frontend/assets/imgs/hero/1/1-bg.png') }}" alt="image" class="hero1_bg">
+          <img src="{{ asset ('frontend/assets/imgs/hero/bg2.jpg') }}" alt="image" class="hero1_bg">
+          {{-- <img src="{{ asset ('frontend/assets/imgs/hero/bg1.jpg') }}" alt="image" class="hero1_bg"> --}}
+          {{-- <img src="{{ asset ('frontend/assets/imgs/hero/1/001.png') }}" alt="image" class="hero1_bg"> --}}
+          {{-- <img src="{{ asset ('frontend/assets/imgs/hero/1/1-bg.png') }}" alt="image" class="hero1_bg"> --}}
         </section>
         <!-- Hero area end -->
 
@@ -289,26 +292,38 @@
           <div class="swiper roll__slider">
             <div class="swiper-wrapper roll__wrapper">
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;">Event organize & Event Management  </h4>
+                <h4 style="color: white;">Campaign Development
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;"">Exhibition Management</h4>
+                <h4 style="color: white;"">Experiential Marketing 
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;"">Corporate Seminars </h4>
+                <h4 style="color: white;"">Communication Strategy Development
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;"">Interior Decoration</h4>
+                <h4 style="color: white;"">Creative Development
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;"">Brand & Activation Management</h4>
+                <h4 style="color: white;"">ATL Marketing
+
+                </h4>
+              </div>
+              <div class="swiper-slide roll__slide">
+                <h4 style="color: white;"">BTL Marketing
+                </h4>
                
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;"">Pre-Fabricated Stall</h4>
+                <h4 style="color: white;"">Digital Marketing
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;"">Logistics Support </h4>
+                <h4 style="color: white;"">Event Management
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
                 <h4 style="color: white;"">PR Communication</h4>
@@ -320,10 +335,12 @@
                 <h4 style="color: white;">Digital Solutions</h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;">ATL & BTL Marketing</h4>
+                <h4 style="color: white;">Interior Design
+                </h4>
               </div>
               <div class="swiper-slide roll__slide">
-                <h4 style="color: white;">Branding</h4>
+                <h4 style="color: white;">Logistics Support
+                </h4>
               </div>
             </div>
           </div>
@@ -338,17 +355,18 @@
             <div class="row">
               <div class="col-xxl-12">
                 <div class="about__title-wrapper">
-                  <h3 class="sec-title title-anim">Brilliance event management was established in 2015.  </h3>
+                  <h3 class="sec-title title-anim">“CRAFTING MEMORABLE EXPERIENCES SINCE 2015”</h3>
                 </div>
 
                 <div class="about__content-wrapper">
                   <div class="about__img">
                     <div class="img-anim">
-                      <img src="{{ asset ('frontend/assets/imgs/about/boroVai.png') }}" alt="About Image" data-speed="0.3">
+                      <img src="{{ asset ('frontend/assets/imgs/about/vai1.jpg') }}" alt="About Image" data-speed="0.3">
+                      {{-- <img src="{{ asset ('frontend/assets/imgs/about/boroVai.png') }}" alt="About Image" data-speed="0.3"> --}}
                     </div>
 
                     <div class="about__img-right">
-                      <img src="{{ asset ('frontend/assets/imgs/about/1/2.jpg') }}" alt="About Image Right" data-speed="0.5">
+                      {{-- <img src="{{ asset ('frontend/assets/imgs/about/1/2.jpg') }}" alt="About Image Right" data-speed="0.5"> --}}
                       <div class="shape">
                         <div class="secondary" data-speed="0.9"></div>
                         <div class="primary"></div>
@@ -357,14 +375,18 @@
                   </div>
 
                   <div class="about__content text-anim">
-                    <p>Since its inception Brilliance has been providing excellent service with
+                    {{-- <p>Since its inception Brilliance has been providing excellent service with
                       topnotch clients’ satisfaction.
 
                       Brilliance serves innovative, effective, and integrated event management
                       services to our clients and aims to help grow their business and grab
                       their expected market goals. <br> Our motto is-
 
-                      “Our Business is Making Memories” </p>
+                      “Our Business is Making Memories” </p> --}}
+                      <p>
+                        "Since its establishment, Brilliance Activation has consistently delivered exceptional service, ensuring utmost client satisfaction. We specialize in providing innovative, effective, and integrated communication services to empower our clients and help them achieve their business growth and market objectives."
+
+                      </p>
 
                     <div class="cursor-btn btn_wrapper">
                       <a class="btn-item wc-btn-primary btn-hover text-white" href="{{ route('about') }}"><span></span> Explore Us <i
@@ -388,7 +410,7 @@
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div class="sec-title-wrapper wrap">
                   <h2 class="sec-sub-title title-anim">service</h2>
-                  <h3 class="sec-title title-anim">Solution we <br>provide</h3>
+                  <h3 class="sec-title title-anim">OUR SERVICES</h3>
                 </div>
               </div>
               <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
@@ -430,14 +452,15 @@
                       <div class="service__item animation_home1_service" data-service="1">
                         <div class="service__number"><span>01</span></div>
                         <div class="service__title-wrapper">
-                          <h4 class="service__title">Event organize & Event Management</h4>
+                          <h4 class="service__title">Campaign Development</h4>
                         </div>
                         <div class="service__text">
-                          <p>We are coordinating and managing crucial aspects of a particular event, including the team working on the event</p>
+                          <p>"We meticulously plan and execute tailored campaigns designed to reinforce our clients' presence in the minds of their customers and drive sales growth. By attentively listening to our clients' needs, delving into the heart of each situation, and discerning the unique requirements of their brand, we develop customized solutions that not only address immediate needs but also foster long-term brand growth."
+                          </p>
                         </div>
-                        <div class="service__link">
+                        {{-- <div class="service__link">
                           <p><i class="fa-solid fa-arrow-right"></i></p>
-                        </div>
+                        </div> --}}
                       </div>
                     </a>
 
@@ -445,14 +468,15 @@
                       <div class="service__item  animation_home1_service" data-service="2">
                         <div class="service__number"><span>02</span></div>
                         <div class="service__title-wrapper">
-                          <h4 class="service__title">Exhibition Management</h4>
+                          <h4 class="service__title">Experiential Marketingt</h4>
                         </div>
                         <div class="service__text">
-                          <p>Exhibition management is one of the most challenging and complex occupations for conference organisers, given the many services and tasks that fall under this profession. We provided this services with outstanding performance</p>
+                          <p>"With a knack for organizing impactful events and activations that elevate brand awareness and engage consumers, we meticulously plan, design, and execute marketing events & activations tailored to meet the unique requirements of each brand.“
+                          </p>
                         </div>
-                        <div class="service__link">
+                        {{-- <div class="service__link">
                           <p><i class="fa-solid fa-arrow-right"></i></p>
-                        </div>
+                        </div> --}}
                       </div>
                     </a>
 
@@ -460,14 +484,15 @@
                       <div class="service__item  animation_home1_service" data-service="3">
                         <div class="service__number"><span>03</span></div>
                         <div class="service__title-wrapper">
-                          <h4 class="service__title">Corporate<br>Seminars </h4>
+                          <h4 class="service__title">Communication Strategy Development </h4>
                         </div>
                         <div class="service__text">
-                          <p>Our Corporate Training Seminars leverage employee engagement to attain higher productivity and greater results</p>
+                          <p>"We specialize in crafting brand identities, defining communication objectives, and mapping out strategic communication roadmaps, all of which contribute to fostering comprehensive brand development."
+                          </p>
                         </div>
-                        <div class="service__link">
+                        {{-- <div class="service__link">
                           <p><i class="fa-solid fa-arrow-right"></i></p>
-                        </div>
+                        </div> --}}
                       </div>
                     </a>
 
@@ -475,14 +500,106 @@
                       <div class="service__item  animation_home1_service" data-service="4">
                         <div class="service__number"><span>04</span></div>
                         <div class="service__title-wrapper">
-                          <h4 class="service__title">Brand & Activation Management</h4>
+                          <h4 class="service__title">Creative Development</h4>
                         </div>
                         <div class="service__text">
-                          <p>We are experiential event management agency focused on Brand Activation Strategy and Implementation, Event Design and Management, Field Services as well as Promotions</p>
+                          <p>"Our team prioritizes the creation of communicative and engaging creative solutions that capture the audience's attention and effectively convey the intended message. We do, Newspaper Ad Design, TV Ad Design, Events & Activation Materials Design, Digital Media Ad Designs, etc."
+                          </p>
                         </div>
-                        <div class="service__link">
+                        {{-- <div class="service__link">
                           <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
+                      </div>
+                    </a>
+                    <a href="{{ route('service-details') }}">
+                      <div class="service__item  animation_home1_service" data-service="4">
+                        <div class="service__number"><span>05</span></div>
+                        <div class="service__title-wrapper">
+                          <h4 class="service__title">ATL Marketing</h4>
                         </div>
+                        <div class="service__text">
+                          <p>"We foster brand development through various communication channels such as newspaper ads, TV ads, magazine ads, radio ads, and more."
+                          </p>
+                        </div>
+                        {{-- <div class="service__link">
+                          <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
+                      </div>
+                    </a>
+                    <a href="{{ route('service-details') }}">
+                      <div class="service__item  animation_home1_service" data-service="4">
+                        <div class="service__number"><span>06</span></div>
+                        <div class="service__title-wrapper">
+                          <h4 class="service__title">BTL Marketing</h4>
+                        </div>
+                        <div class="service__text">
+                          <p>"We facilitate brand growth through strategic communication across a spectrum of platforms, encompassing poster ads, banner ads, traditional & digital billboard ads, direct marketing initiatives, events & activations, etc."
+                          </p>
+                        </div>
+                        {{-- <div class="service__link">
+                          <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
+                      </div>
+                    </a>
+                    <a href="{{ route('service-details') }}">
+                      <div class="service__item  animation_home1_service" data-service="4">
+                        <div class="service__number"><span>07</span></div>
+                        <div class="service__title-wrapper">
+                          <h4 class="service__title">Digital Marketing</h4>
+                        </div>
+                        <div class="service__text">
+                          <p>"We prioritize our clients' digital presence, connecting them with their prospects through timely and targeted communication across social media and other digital channels. Our commitment to managing their digital presence ensures their continued growth in the digital landscape."
+
+                          </p>
+                        </div>
+                        {{-- <div class="service__link">
+                          <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
+                      </div>
+                    </a>
+                    <a href="{{ route('service-details') }}">
+                      <div class="service__item  animation_home1_service" data-service="4">
+                        <div class="service__number"><span>08</span></div>
+                        <div class="service__title-wrapper">
+                          <h4 class="service__title">Event Management</h4>
+                        </div>
+                        <div class="service__text">
+                          <p>"We specialize in designing, organizing, and executing corporate events that elevate the prestige of our clients and fulfill their objectives. With a passionate approach, we orchestrate corporate, marketing, and business events with meticulous attention to detail."</p>
+                        </div>
+                        {{-- <div class="service__link">
+                          <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
+                      </div>
+                    </a>
+                    <a href="{{ route('service-details') }}">
+                      <div class="service__item  animation_home1_service" data-service="4">
+                        <div class="service__number"><span>09</span></div>
+                        <div class="service__title-wrapper">
+                          <h4 class="service__title">Interior Design</h4>
+                        </div>
+                        <div class="service__text">
+                          <p>"We are dedicated to bringing the dreams of our esteemed clients to life. By listening to their aspirations, we pledge to design interiors that reflect their desires, ensuring an unforgettable experience through our unparalleled service."
+
+                          </p>
+                        </div>
+                        {{-- <div class="service__link">
+                          <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
+                      </div>
+                    </a>
+                    <a href="{{ route('service-details') }}">
+                      <div class="service__item  animation_home1_service" data-service="4">
+                        <div class="service__number"><span>10</span></div>
+                        <div class="service__title-wrapper">
+                          <h4 class="service__title">Logistics Support</h4>
+                        </div>
+                        <div class="service__text">
+                          <p>"We offer comprehensive logistics support for event organization and interior design projects, committed to standing by our clients at every step. From the storage of event materials to providing essential resources for event execution and interior design projects, we ensure seamless service delivery."
+                          </p>
+                        </div>
+                        {{-- <div class="service__link">
+                          <p><i class="fa-solid fa-arrow-right"></i></p>
+                        </div> --}}
                       </div>
                     </a>
                   </div>
@@ -495,7 +612,7 @@
 
 
         <!-- Counter area start -->
-        <section class="counter__area">
+        {{-- <section class="counter__area">
           <div class="container g-0 line pt-150">
             <span class="line-3"></span>
 
@@ -526,12 +643,12 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> --}}
         <!-- Counter area end -->
 
 
         <!-- Workflow area start -->
-        <section class="workflow__area">
+        {{-- <section class="workflow__area">
           <div class="container g-0 line pt-140 pb-140">
             <div class="line-3"></div>
             <div class="row">
@@ -591,7 +708,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> --}}
         <!-- Workflow area end -->
 
 
@@ -603,45 +720,47 @@
               <h2 class="portfolio__text">work</h2>
               <div class="portfolio__list-1">
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
+                  <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/9.jpg') }}"
                       alt="Portfolio Image"></a>
+                  {{-- <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
+                      alt="Portfolio Image"></a> --}}
                   <div class="portfolio__info">
-                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/8.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
-                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/3.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/6.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
-                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/4.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/7.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
-                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/10.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
-                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/11.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
-                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
                   </div>
                 </div>
@@ -776,31 +895,32 @@
         <!-- Testimonial area end -->
 
 
-        <!-- Blog area start -->
+        <!-- Gallery area start -->
         <section class="blog__area no-pb blog__animation">
           <div class="container g-0 line pt-150 pb-140">
             <span class="line-3"></span>
             <div class="row">
               <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                 <div class="sec-title-wrapper">
-                  <h2 class="sec-sub-title">recent blog</h2>
-                  <h3 class="sec-title">News insignt</h3>
+                  <h2 class="sec-sub-title">Gallary</h2>
+                  <h3 class="sec-title">Our Insight</h3>
                 </div>
               </div>
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                   <div class="blog__img-wrapper">
-                    <a href="{{ route('blog-details') }}">
+                    <a href="{{ route('gallery-details') }}">
                       <div class="img-box">
-                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/3.jpg') }}" alt="">
-                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/3.jpg') }}" alt="">
+                       <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/digitalArena2.jpg') }}" alt="">
+                        {{-- <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/gallery/Corporate/1.jpg') }}" alt=""> --}}
+                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/digitalArena1.jpg') }}" alt="">
                       </div>
                     </a>
                   </div>
-                  <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="{{ route('blog-details') }}" class="blog__title">Ways of lying to yourself about your new
-                      relationship.</a></h5>
-                  <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
+                  {{-- <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4> --}}
+                  <h5><a href="{{ route('gallery-details') }}" class="blog__title">Exploring the digital arena.
+                  </a></h5>
+                  <a href="{{ route('gallery-details') }}" class="blog__btn">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
@@ -808,17 +928,17 @@
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                   <div class="blog__img-wrapper">
-                    <a href="{{ route('blog-details') }}">
+                    <a href="{{ route('gallery-details') }}">
                       <div class="img-box">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/2.jpg') }}" alt="">
                         <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/2.jpg') }}" alt="">
                       </div>
                     </a>
                   </div>
-                  <h4 class="blog__meta"><a href="/">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="{{ route('blog-details') }}" class="blog__title">How to manage a talented and successful de sign
-                      team</a></h5>
-                  <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
+                  {{-- <h4 class="blog__meta"><a href="/">UI Design</a> . 02 May 2019</h4> --}}
+                  <h5><a href="{{ route('gallery-details') }}" class="blog__title">Experiencing the exceptions
+                  </a></h5>
+                  <a href="{{ route('gallery-details') }}" class="blog__btn">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
@@ -826,24 +946,24 @@
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                   <div class="blog__img-wrapper">
-                    <a href="{{ route('blog-details') }}">
+                    <a href="{{ route('gallery-details') }}">
                       <div class="img-box">
-                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/3.jpg') }}" alt="Blog Thumbnail">
-                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/1/3.jpg') }}" alt="BLog Thumbnail">
+                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/creative1.jpg') }}" alt="Blog Thumbnail">
+                        <img class="image-box__item" src="{{ asset ('frontend/assets/imgs/blog/creative2.jpg') }}" alt="BLog Thumbnail">
                       </div>
                     </a>
                   </div>
-                  <h4 class="blog__meta"><a href="/">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="{{ route('blog-details') }}" class="blog__title">How to bring fold to your startup company with
-                      Axtra</a></h5>
-                  <a href="{{ route('blog-details') }}" class="blog__btn">Read More <span><i
+                  {{-- <h4 class="blog__meta"><a href="/">UI Design</a> . 02 May 2019</h4> --}}
+                  <h5><a href="{{ route('gallery-details') }}" class="blog__title">Creative memorization</a>
+                  </h5>
+                  <a href="{{ route('gallery-details') }}" class="blog__btn">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
             </div>
           </div>
         </section>
-        <!-- Blog area end -->
+        <!-- Gallery area end -->
 
 
         <!-- CTA area start -->
@@ -854,7 +974,8 @@
               <div class="col-xxl-12">
                 <div class="cta__content">
                   <p class="cta__sub-title">Work with us</p>
-                  <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
+                  <h2 class="cta__title title-anim">“SHARE YOUR VISION WITH US”</h2>
+                  {{-- <h2 class="cta__title title-anim">We would love to hear more about your project</h2> --}}
                   <div class="btn_wrapper">
                   <a href="{{ route('contact') }}" class="wc-btn-primary btn-hover btn-item text-white"><span></span>Let’s talk us <i
                         class="fa-solid fa-arrow-right"></i></a>
@@ -900,7 +1021,7 @@
                       <li><a href="{{ route('about') }}">About Company</a></li>
                       <li><a href="{{ route('portfolio') }}">Case Study</a></li>
                       <li><a href="#">Career</a></li>
-                      <li><a href="{{ route('blog') }}">blog</a></li>
+                      <li><a href="{{ route('gallery') }}">blog</a></li>
                       <li><a href="{{ route('contact') }}">contact</a></li>
                     </ul>
                   </div>

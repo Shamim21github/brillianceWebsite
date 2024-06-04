@@ -156,7 +156,7 @@
                         <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
                         <li><a href="#">Career</a></li>
-                        <li><a href="{{ route('blog') }}">blog</a></li>
+                        <li><a href="{{ route('gallery') }}">gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -210,17 +210,17 @@
                             </ul>
                         </li>
                         <!-- <li>
-                    <a>blog</a>
+                    <a>gallery</a>
                     <ul>
-                      <li><a href="blog.html">Our blog</a></li>
+                      <li><a href="gallery.html">Our gallery</a></li>
                     </ul>
                   </li> -->
 
                         </ul>
                         </li>
-                        <li><a>blog</a>
+                        <li><a>gallery</a>
                             <ul>
-                                <li><a href="{{ route('blog') }}">blog</a></li>
+                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
                             </ul>
                         </li>
                         <li><a href="{{ route('contact') }}">contact</a></li>
@@ -265,7 +265,7 @@
                         <div class="row">
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                                 <div class="sec-title-wrapper">
-                                    <h2 class="sec-title animation__char_come">Web and mobile development</h2>
+                                    <h2 class="sec-title animation__char_come">Our Services</h2>
                                 </div>
                             </div>
                             <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
@@ -274,29 +274,31 @@
                                         <p>Every decision we make needs to answer the million-dollar question: how will
                                             this benefit our
                                             partner’s goal best? We work to develop solutions</p>
-                                        <p>We like to be different, in the same way that every mission is different.
-                                            Every project is an
-                                            opportunity to create result that will help you</p>
+                                        <p>We meticulously plan and execute tailored campaigns designed to reinforce our clients' presence in the minds of their customers and drive sales growth. </p>
                                     </div>
                                     <ul>
-                                        <li>+ API Development</li>
-                                        <li>+ WordPress</li>
-                                        <li>+ Cloud Migration</li>
-                                        <li>+ Front End Development</li>
-                                        <li>+ JavaScript</li>
-                                        <li>+ Fluter Framework</li>
+                                        <li>+ Campaign Development</li>
+                                        <li>+ Communication Strategy Development</li>
+                                        <li>+ Experiential Marketing</li>
+                                        <li>+ Creative Development</li>
+                                        <li>+ ATL Marketing</li>
+                                        <li>+ BTL Marketing</li>
+                                        <li>+ Digital Marketing</li>
+                                        <li>+ Event Management</li>
+                                        <li>+ Interior Design</li>
+                                        <li>+ Logistics Support</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                                 <div class="development__img">
-                                    <img src="{{ asset('frontend/assets/imgs/thumb/dev-1.jpg') }}"
+                                    <img src="{{ asset ('frontend/assets/imgs/portfolio/exhibition/1.jpg') }}"
                                         alt="Development Image" data-speed="auto">
                                 </div>
                             </div>
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <div class="development__img">
-                                    <img src="{{ asset('frontend/assets/imgs/thumb/dev-2.jpg') }}"
+                                    <img src="{{ asset('frontend/assets/imgs/portfolio/exhibition/2.jpg') }}"
                                         alt="Development Image">
                                 </div>
                             </div>
@@ -307,7 +309,7 @@
 
 
                 <!-- Workflow area start -->
-                <section class="workflow__area-6">
+                {{-- <section class="workflow__area-6">
                     <div class="container g-0 line pb-130">
                         <div class="line-3"></div>
                         <div class="workflow__wrapper-6 ">
@@ -350,7 +352,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
                 <!-- Workflow area end -->
 
 
@@ -374,7 +376,7 @@
                             </div>
                             <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
                                 <div class="service__detail-img">
-                                    <img src="{{ asset('frontend/assets/imgs/thumb/service-detail.png') }}"
+                                    <img src="{{ ('frontend/assets/imgs/portfolio/corporate/1.jpg') }}"
                                         alt="Service detail image">
                                     <img src="{{ asset('frontend/assets/imgs/icon/shape-6.png') }}"
                                         alt="Service shape image" class="sd-shape">
@@ -406,7 +408,7 @@
                         <div class="row">
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="faq__img">
-                                    <img src="{{ asset('frontend/assets/imgs/thumb/faq.jpg') }}" alt="FAQ Image"
+                                    <img src="{{ asset('frontend/assets/imgs/portfolio/exhibition/2.jpg') }}" alt="FAQ Image"
                                         data-speed="auto">
                                 </div>
                             </div>
@@ -541,7 +543,7 @@
                                     <h2 class="cta__title title-anim">We would love to hear more about your project
                                     </h2>
                                     <div class="btn_wrapper">
-                                        <a href="contact.html"
+                                        <a href="{{ route('contact') }}"
                                             class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
                                                 class="fa-solid fa-arrow-right"></i></a>
                                     </div>
@@ -595,7 +597,7 @@
                                             <li><a href="{{ route('about') }}">About Company</a></li>
                                             <li><a href="{{ route('portfolio') }}">Case Study</a></li>
                                             <li><a href="#">Career</a></li>
-                                            <li><a href="{{ route('blog') }}">blog</a></li>
+                                            <li><a href="{{ route('gallery') }}">Gallery</a></li>
                                             <li><a href="{{ route('contact') }}">contact</a></li>
                                         </ul>
                                     </div>
