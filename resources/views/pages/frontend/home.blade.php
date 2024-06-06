@@ -299,10 +299,10 @@
                 <h4 style="color: white;"">Experiential Marketing 
                 </h4>
               </div>
-              <div class="swiper-slide roll__slide">
+              {{-- <div class="swiper-slide roll__slide">
                 <h4 style="color: white;"">Communication Strategy Development
                 </h4>
-              </div>
+              </div> --}}
               <div class="swiper-slide roll__slide">
                 <h4 style="color: white;"">Creative Development
                 </h4>
@@ -321,16 +321,16 @@
                 <h4 style="color: white;"">Digital Marketing
                 </h4>
               </div>
-              <div class="swiper-slide roll__slide">
+              {{-- <div class="swiper-slide roll__slide">
                 <h4 style="color: white;"">Event Management
                 </h4>
-              </div>
+              </div> --}}
               <div class="swiper-slide roll__slide">
                 <h4 style="color: white;"">PR Communication</h4>
               </div>
-              <div class="swiper-slide roll__slide">
+              {{-- <div class="swiper-slide roll__slide">
                 <h4 style="color: white;">TVC & OVC </h4>
-              </div>
+              </div> --}}
               <div class="swiper-slide roll__slide">
                 <h4 style="color: white;">Digital Solutions</h4>
               </div>
@@ -362,7 +362,12 @@
                   <div class="about__img">
                     <div class="img-anim">
                       <img src="{{ asset ('frontend/assets/imgs/about/vai1.jpg') }}" alt="About Image" data-speed="0.3">
+                      
                       {{-- <img src="{{ asset ('frontend/assets/imgs/about/boroVai.png') }}" alt="About Image" data-speed="0.3"> --}}
+                    </div>
+                    <div class="about text-center mt-2" style="color: white">
+                      <h3>Md.Shamir </h3>
+                      <h6>CEO, Brilliance Activation Ltd.</h6>
                     </div>
 
                     <div class="about__img-right">
@@ -448,7 +453,8 @@
                 </div>
                 <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                   <div class="service__list">
-                    <a href="{{ route('service-details') }}">
+                   
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item animation_home1_service" data-service="1">
                         <div class="service__number"><span>01</span></div>
                         <div class="service__title-wrapper">
@@ -462,13 +468,13 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
+                    {{-- </a> --}}
 
-                    <a href="{{ route('service-details') }}">
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="2">
                         <div class="service__number"><span>02</span></div>
                         <div class="service__title-wrapper">
-                          <h4 class="service__title">Experiential Marketingt</h4>
+                          <h4 class="service__title">Experiential Marketing</h4>
                         </div>
                         <div class="service__text">
                           <p>"With a knack for organizing impactful events and activations that elevate brand awareness and engage consumers, we meticulously plan, design, and execute marketing events & activations tailored to meet the unique requirements of each brand.“
@@ -478,9 +484,9 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
+                    {{-- </a> --}}
 
-                    <a href="{{ route('service-details') }}">
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="3">
                         <div class="service__number"><span>03</span></div>
                         <div class="service__title-wrapper">
@@ -494,9 +500,9 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
+                    {{-- </a> --}}
 
-                    <a href="{{ route('service-details') }}">
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
                         <div class="service__number"><span>04</span></div>
                         <div class="service__title-wrapper">
@@ -510,8 +516,8 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
-                    <a href="{{ route('service-details') }}">
+                    {{-- </a> --}}
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
                         <div class="service__number"><span>05</span></div>
                         <div class="service__title-wrapper">
@@ -525,23 +531,23 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
-                    <a href="{{ route('service-details') }}">
+                    {{-- </a> --}}
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
-                        <div class="service__number"><span>06</span></div>
+                        {{-- <div class="service__number"><span>06</span></div>
                         <div class="service__title-wrapper">
                           <h4 class="service__title">BTL Marketing</h4>
                         </div>
                         <div class="service__text">
                           <p>"We facilitate brand growth through strategic communication across a spectrum of platforms, encompassing poster ads, banner ads, traditional & digital billboard ads, direct marketing initiatives, events & activations, etc."
                           </p>
-                        </div>
+                        </div> --}}
                         {{-- <div class="service__link">
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
-                    <a href="{{ route('service-details') }}">
+                    {{-- </a> --}}
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
                         <div class="service__number"><span>07</span></div>
                         <div class="service__title-wrapper">
@@ -556,22 +562,22 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
-                    <a href="{{ route('service-details') }}">
+                    {{-- </a> --}}
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
-                        <div class="service__number"><span>08</span></div>
+                        {{-- <div class="service__number"><span>08</span></div>
                         <div class="service__title-wrapper">
                           <h4 class="service__title">Event Management</h4>
                         </div>
                         <div class="service__text">
                           <p>"We specialize in designing, organizing, and executing corporate events that elevate the prestige of our clients and fulfill their objectives. With a passionate approach, we orchestrate corporate, marketing, and business events with meticulous attention to detail."</p>
-                        </div>
+                        </div> --}}
                         {{-- <div class="service__link">
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
-                    <a href="{{ route('service-details') }}">
+                    {{-- </a> --}}
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
                         <div class="service__number"><span>09</span></div>
                         <div class="service__title-wrapper">
@@ -586,8 +592,8 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
-                    <a href="{{ route('service-details') }}">
+                    {{-- </a> --}}
+                    {{-- <a href="{{ route('service-details') }}"> --}}
                       <div class="service__item  animation_home1_service" data-service="4">
                         <div class="service__number"><span>10</span></div>
                         <div class="service__title-wrapper">
@@ -601,7 +607,7 @@
                           <p><i class="fa-solid fa-arrow-right"></i></p>
                         </div> --}}
                       </div>
-                    </a>
+                    {{-- </a> --}}
                   </div>
                 </div>
               </div>
@@ -720,7 +726,7 @@
               <h2 class="portfolio__text">work</h2>
               <div class="portfolio__list-1">
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/9.jpg') }}"
+                  <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
                       alt="Portfolio Image"></a>
                   {{-- <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
                       alt="Portfolio Image"></a> --}}
@@ -730,7 +736,28 @@
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/8.jpg') }}" alt="Portfolio Image"></a>
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/2.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/3.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/4.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/5.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
@@ -743,6 +770,7 @@
                     <p>02 May 2021</p>
                   </div>
                 </div>
+
                 <div class="portfolio__item">
                   <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/7.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
@@ -750,6 +778,7 @@
                     <p>02 May 2021</p>
                   </div>
                 </div>
+
                 <div class="portfolio__item">
                   <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/10.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
@@ -757,6 +786,7 @@
                     <p>02 May 2021</p>
                   </div>
                 </div>
+
                 <div class="portfolio__item">
                   <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/11.jpg') }}" alt="Portfolio Image"></a>
                   <div class="portfolio__info">
@@ -764,6 +794,32 @@
                     <p>02 May 2021</p>
                   </div>
                 </div>
+
+                <div class="portfolio__item">
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/12.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
+                <div class="portfolio__item">
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/13.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
+                
+                <div class="portfolio__item">
+                  <a href="{{ route('portfolio-details') }}"><img src="{{ asset ('frontend/assets/imgs/portfolio/1/14.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
 
               </div>
             </div>
