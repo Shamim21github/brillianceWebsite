@@ -34,7 +34,7 @@ Route::get('/service-details', function () {
     return view('pages.frontend.serviceDetails');
 })->name('service-details');
 
-
+// portfolio/work section start
 Route::get('/portfolio', function () {
     return view('pages.frontend.portfolio');
 })->name('portfolio');
@@ -42,6 +42,74 @@ Route::get('/portfolio', function () {
 Route::get('/portfolio-details', function () {
     return view('pages.frontend.portfolioDetails');
 })->name('portfolio-details');
+
+// Route::get('/corporate-details', function () {
+//     return view('pages.frontend.corporateEventDetails');
+// })->name('activition-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.activationDetails');
+// })->name('branding-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.portfolioDetails');
+// })->name('bootinterior-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.portfolioDetails');
+// })->name('officeinterior-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.portfolioDetails');
+// })->name('seminar-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.portfolioDetails');
+// })->name('exhibition-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.portfolioDetails');
+// })->name('cultural-details');
+// Route::get('/portfolio-details', function () {
+//     return view('pages.frontend.portfolioDetails');
+// })->name('portfolio-details');
+
+
+Route::get('/corporate-details', function () {
+    return view('pages.frontend.corporateEventDetails');
+})->name('corporate-details');
+
+Route::get('/activition-details', function () {
+    return view('pages.frontend.activationDetails');
+})->name('activition-details');
+
+Route::get('/branding-details', function () {
+    return view('pages.frontend.brandingDetails');
+})->name('branding-details');
+
+Route::get('/boothinterior-details', function () {
+    return view('pages.frontend.boothInteriorDetails');
+})->name('boothinterior-details');
+
+Route::get('/officeinterior-details', function () {
+    return view('pages.frontend.officeInteriorDetails');
+})->name('officeinterior-details');
+
+Route::get('/seminar-details', function () {
+    return view('pages.frontend.seminarDetails');
+})->name('seminar-details');
+
+Route::get('/exhibition-details', function () {
+    return view('pages.frontend.exhibitionmanagementDetails');
+})->name('exhibition-details');
+
+Route::get('/cultural-details', function () {
+    return view('pages.frontend.culturalProgrammeDetails');
+})->name('cultural-details');
+
+Route::get('/convocation-details', function () {
+    return view('pages.frontend.convocationDetails');
+})->name('convocation-details');
+
+
+
+
+
+// portfolio/work section end
 
 Route::get('/team', function () {
     return view('pages.frontend.team');

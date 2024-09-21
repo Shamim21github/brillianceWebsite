@@ -726,10 +726,99 @@
               <h2 class="portfolio__text">work</h2>
               <div class="portfolio__list-1">
                 <div class="portfolio__item">
+                  <a href="{{ route('corporate-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/work/workCover/booth.jpeg') }}"
+                      alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('activition-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/branding.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('branding-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/convocation.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title mb-3">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('boothinterior-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/cultural.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('officeinterior-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/event.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('seminar-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/exhibition.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
+                <div class="portfolio__item">
+                  <a href="{{ route('exhibition-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/office_interior.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
+                <div class="portfolio__item">
+                  <a href="{{ route('cultural-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/seminar.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="{{ route('convocation-details') }}"><img src="{{ asset ('frontend/assets/imgs/work/workCover/seminar.jpg') }}" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
+                
+
+
+              </div>
+            </div>
+
+            <div class="row row_bottom">
+              <div class="col-xxl-12">
+                <div class="portfolio__btn btn_wrapper" data-speed="1" data-lag="0.2">
+                  <a class="wc-btn-secondary btn-hover btn-item text-white" href="{{ route('portfolio') }}"><span></span>View <br>all
+                    projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {{-- <section class="portfolio__area pb-140">
+          <div class="container">
+            <div class="row top_row">
+
+              <h2 class="portfolio__text">work</h2>
+              <div class="portfolio__list-1">
+                <div class="portfolio__item">
                   <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
                       alt="Portfolio Image"></a>
-                  {{-- <a href="{{ route('portfolio-details') }}"><img class="mover" src="{{ asset ('frontend/assets/imgs/portfolio/1/1.jpg') }}"
-                      alt="Portfolio Image"></a> --}}
+  
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Brilliance Activation Ltd.</h3>
                     <p>02 May 2021</p>
@@ -833,18 +922,18 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> --}}
         <!-- Portfolio area end -->
 
 
-        <!-- Brand area start -->
+        <!-- Brand/client area start -->
         <section class="brand__area">
           <div class="container g-0 line pt-140 pb-130">
             <span class="line-3"></span>
             <div class="row">
               <div class="col-xxl-12">
                 <div class="sec-title-wrapper">
-                  <h2 class="sec-sub-title title-anim">Internation Brands</h2>
+                  <h2 class="sec-sub-title title-anim">International Brands</h2>
                   <h3 class="sec-title title-anim">We are happy to work with global <br>
                     largest brands</h3>
                 </div>
@@ -893,11 +982,11 @@
             </div>
           </div>
         </section>
-        <!-- Brand area end -->
+        <!-- Brand/client area end -->
 
 
         <!-- Testimonial area start -->
-        <section class="testimonial__area">
+        {{-- <section class="testimonial__area">
           <div class="container g-0 line">
             <span class="line-3"></span>
             <div class="row">
@@ -947,7 +1036,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> --}}
         <!-- Testimonial area end -->
 
 
